@@ -6,7 +6,7 @@ div#board{
     width: 1024px;
     height: 862px;
     margin: auto;
-    background: url("board.jpg") no-repeat;
+    background: url("sea.img/board.jpg") no-repeat;
 }
 div#messageArea{
     position: absolute;
@@ -37,8 +37,8 @@ form input{
     border-color: rgb(83,175,19);
 }
 .hit{
-    background: url("ship.png") center;
+    background: url("sea.img/ship.png") center center no-repeat;
 }
 .miss{
-    background: url("miss.png") center;
+    background: url("sea.img/miss.png") center center no-repeat;
 }
